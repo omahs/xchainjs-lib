@@ -55,14 +55,14 @@ yarn ts-node txJammerCommander.ts \
 
 Runs random txs with a monetary value between 1-3 USD for 60 secs with a pause between actions of 2 secs, but run in "estimate only" mode ( does not submit the txs)
 
-Additionally, a specfic **Action Config** specified with --configActions, specifies the following:
+Additionally, a specific **Action Config** specified with --configActions, specifies the following:
 
 - transfer should have a probabilistic weight of 500
 - addLp should have a probabilistic weight of 0
 - withdrawLp should have a probabilistic weight of 0
 - swap should have a probabilistic weight of 300
 
-Additionally, a specfic **Swap Config** specified with --configSwap, specifies the following:
+Additionally, a specific **Swap Config** specified with --configSwap, specifies the following:
 
 - ETH.ETH BTC.BTC swaps should have a probabilistic weight of 500
 - BNB.BNB to any other asset should have a probabilistic weight of 200
@@ -83,19 +83,19 @@ yarn ts-node txJammerCommander.ts \
 
 Runs random txs with a monetary value between 1-3 USD for 60 secs with a pause between actions of 2 secs, but run in "estimate only" mode ( does not submit the txs)
 
-Additionally, a specfic **Transfer Config** specified with --configTransfer, specifies the following:
+Additionally, a specific **Transfer Config** specified with --configTransfer, specifies the following:
 
 - BNB.BNB transfers should have a probabilistic weight of 300
 - BCH.BCH transfers should have a probabilistic weight of 200
 - all other asset transfers should have a probabilistic weight of 50
 
-Additionally, a specfic **AddLP Config** specified with --configAddLp, specifies the following:
+Additionally, a specific **AddLP Config** specified with --configAddLp, specifies the following:
 
 - BTC.BTC addLp should have a probabilistic weight of 300
 - BCH.BCH addLp should have a probabilistic weight of 200
 - no other other assetwill be selected to addLp
 
-Additionally, a specfic **WithdrawLP Config** specified with --configWithdrawLp, specifies the following:
+Additionally, a specific **WithdrawLP Config** specified with --configWithdrawLp, specifies the following:
 
 - BTC.BTC WithdrawLP should have a probabilistic weight of 300
 - BCH.BCH addLp should have a probabilistic weight of 200
